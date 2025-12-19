@@ -444,15 +444,15 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
   " }}}
 
   " Diff highlighting -------------------------------------------------------{{{
-  call <sid>X('DiffAdd',     s:hue_4, s:visual_grey, '')
-  call <sid>X('DiffChange',  s:hue_6, s:visual_grey, '')
-  call <sid>X('DiffDelete',  s:hue_5, s:visual_grey, '')
-  call <sid>X('DiffText',    s:hue_2, s:visual_grey, '')
-  call <sid>X('DiffAdded',   s:hue_4, s:visual_grey, '')
-  call <sid>X('DiffFile',    s:hue_5, s:visual_grey, '')
-  call <sid>X('DiffNewFile', s:hue_4, s:visual_grey, '')
-  call <sid>X('DiffLine',    s:hue_2, s:visual_grey, '')
-  call <sid>X('DiffRemoved', s:hue_5, s:visual_grey, '')
+  call <sid>X('DiffAdd',     s:hue_4, '', '')
+  call <sid>X('DiffChange',  s:hue_6, '', '')
+  call <sid>X('DiffDelete',  s:hue_5, '', '')
+  call <sid>X('DiffText',    s:hue_2, '', '')
+  call <sid>X('DiffAdded',   s:hue_4, '', '')
+  call <sid>X('DiffFile',    s:hue_5, '', '')
+  call <sid>X('DiffNewFile', s:hue_4, '', '')
+  call <sid>X('DiffLine',    s:hue_2, '', '')
+  call <sid>X('DiffRemoved', s:hue_5, '', '')
   " }}}
 
   " Asciidoc highlighting ---------------------------------------------------{{{
